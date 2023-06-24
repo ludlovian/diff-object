@@ -1,10 +1,10 @@
 {
   "name": "@ludlovian/diff-object",
   "private": true,
-  "type": "modele",
+  "type": "module",
   "version": "0.1.1",
   "description": "Object diff",
-  "exports": "./src/index.js",
+  "exports": "./src/index.mjs",
   "scripts": {
     "clean": "rm -rf coverage/ node_modules/.cache/",
     "lint": "standard '{src,test}/**/*.mjs'|snazzy",
