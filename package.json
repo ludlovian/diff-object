@@ -2,7 +2,7 @@
   "name": "diff-object",
   "private": true,
   "type": "modele",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Object diff",
   "exports": "./src/index.js",
   "scripts": {
