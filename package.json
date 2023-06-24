@@ -1,0 +1,22 @@
+{
+  "name": "diff-object",
+  "private": true,
+  "type": "modele",
+  "version": "0.0.1",
+  "description": "Object diff",
+  "exports": "./src/index.js",
+  "scripts": {
+    "clean": "rm -rf coverage/ node_modules/.cache/",
+    "lint": "standard '{src,test}/**/*.mjs'|snazzy",
+    "format": "prettier-standard '{src,test}/**/*.mjs'",
+    "test": "c8 uvu",
+    "coverage": "npm run test && c8 report --reporter=html && sirv coverage/ -p 8000 -H"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "pixutil": "github:ludlovian/pixutil",
+    "uvu": "^0.5.6"
+  }
+}
