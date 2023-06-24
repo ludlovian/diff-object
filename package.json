@@ -1,5 +1,5 @@
 {
-  "name": "diff-object",
+  "name": "@ludlovian/diff-object",
   "private": true,
   "type": "modele",
   "version": "0.1.0",
