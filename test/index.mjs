@@ -43,4 +43,17 @@ test('deleted elements', () => {
   assert.equal(act, exp)
 })
 
+test('options: depth', () => {
+  const from = { a: 1, b: { c: 2, d: 'foo' } }
+  const to = { a: 1, b: { c: 2, d: 'bar' } }
+
+  const exp1 = { b: { d: 'bar' } }
+  const act1 = diffObject(from, to, { depth: 2 })
+  assert.equal(act1, exp1)
+
+  const exp2 = { b: { c: 2, d: 'bar' } }
+  const act2 = diffObject(from, to, { depth: 1 })
+  assert.equal(act2, exp2)
+})
+
 test.run()
