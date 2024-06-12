@@ -2,7 +2,7 @@
   "name": "@ludlovian/diff-object",
   "private": true,
   "type": "module",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Object diff",
   "exports": "./src/index.mjs",
   "scripts": {
