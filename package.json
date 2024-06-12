@@ -16,6 +16,6 @@
   "author": "",
   "license": "Unlicense",
   "dependencies": {
-    "pixutil": "github:ludlovian/pixutil"
+    "@ludlovian/equal": "github:ludlovian/equal"
   }
 }

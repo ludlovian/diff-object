@@ -8,16 +8,16 @@ importers:
 
   .:
     dependencies:
-      pixutil:
-        specifier: github:ludlovian/pixutil
-        version: https://codeload.github.com/ludlovian/pixutil/tar.gz/48943b90fbe02e49fb572f71e3e907854790c378
+      '@ludlovian/equal':
+        specifier: github:ludlovian/equal
+        version: https://codeload.github.com/ludlovian/equal/tar.gz/9af158101cc2b0cee715fb85b0f61a26858f24c5
 
 packages:
 
-  pixutil@https://codeload.github.com/ludlovian/pixutil/tar.gz/48943b90fbe02e49fb572f71e3e907854790c378:
-    resolution: {tarball: https://codeload.github.com/ludlovian/pixutil/tar.gz/48943b90fbe02e49fb572f71e3e907854790c378}
-    version: 1.10.0
+  '@ludlovian/equal@https://codeload.github.com/ludlovian/equal/tar.gz/9af158101cc2b0cee715fb85b0f61a26858f24c5':
+    resolution: {tarball: https://codeload.github.com/ludlovian/equal/tar.gz/9af158101cc2b0cee715fb85b0f61a26858f24c5}
+    version: 0.1.0
 
 snapshots:
 
-  pixutil@https://codeload.github.com/ludlovian/pixutil/tar.gz/48943b90fbe02e49fb572f71e3e907854790c378: {}
+  '@ludlovian/equal@https://codeload.github.com/ludlovian/equal/tar.gz/9af158101cc2b0cee715fb85b0f61a26858f24c5': {}

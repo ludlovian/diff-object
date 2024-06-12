@@ -1,4 +1,4 @@
-import equal from 'pixutil/equal'
+import equal from '@ludlovian/equal'
 
 export default function diffObject (from, to, opts = {}) {
   const { depth: maxDepth = Infinity } = opts
