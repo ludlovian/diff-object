@@ -16,6 +16,6 @@
   "author": "",
   "license": "Unlicense",
   "dependencies": {
-    "@ludlovian/equal": "github:ludlovian/equal"
+    "@ludlovian/equal": "file:../equal"
   }
 }
